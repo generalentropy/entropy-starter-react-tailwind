@@ -1,4 +1,4 @@
-# Entropy‘s React ⚛️ + Tailwind CSS Template 🚀
+# Entropy‘s React ⚛️ + Tailwind Template 🚀
 
 ### Stack list
 
@@ -25,3 +25,7 @@
 #### ESLint
 
 - Disable prop-types validation
+
+#### Misc
+
+- Custom files and folder structure
