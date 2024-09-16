@@ -12,8 +12,11 @@
 - Canvas Confetti : Performant confetti animation in the browser 🎉
 - react-device-detect : Detect device
 - React Icons : Popular icons + ES6 imports
+- React Router : A lightweight, fully-featured routing library for React
 - TanStack Query : Powerful asynchronous state management for TS/JS
-- React Hook Form : Performant, flexible and extensible forms with easy-to-use validatio
+- React Hook Form : Performant, flexible and extensible forms with easy-to-use validation
+- react-loader-spinner : simple React SVG spinner component
+- react-responsive : Media queries in react for responsive design
 
 ### Custom configuration
 
