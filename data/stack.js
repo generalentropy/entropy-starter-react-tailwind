@@ -10,4 +10,8 @@ export const stack = [
   ["react-device-detect", "Detect device"],
   ["React Icons", "Popular icons + ES6 imports "],
   ["TanStack Query", "Powerful asynchronous state management for TS/JS"],
+  [
+    "React Hook Form",
+    "Performant, flexible and extensible forms with easy-to-use validation",
+  ],
 ];
