@@ -1,6 +1,6 @@
 export const stack = [
   ["ESLint", "Find and fix problems in your JavaScript code"],
-  ["ESlint plugins", "react, react-hooks, react-refresh"],
+  ["ESLint plugins", "react, react-hooks, react-refresh"],
   ["PostCSS", " tool for transforming CSS with JavaScript"],
   ["React Hot Toast ", "Smoking Hot React Notifications 🔥"],
   ["Framer motion", "A production-ready motion library for React"],

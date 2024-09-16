@@ -1,8 +1,27 @@
-# React + Vite
+# Entropy‘s React ⚛️ + Tailwind CSS Template 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Stack list
 
-Currently, two official plugins are available:
+- ESLint : Find and fix problems in your JavaScript code
+- ESLint plugins : react, react-hooks, react-refresh
+- PostCSS : tool for transforming CSS with JavaScript
+- React Hot Toast : Smoking Hot React Notifications 🔥
+- Framer motion : A production-ready motion library for React
+- Prettier : Opinionated code formatter
+- Classnames : Utility for conditionally joining classNames together
+- Canvas Confetti : Performant confetti animation in the browser 🎉
+- react-device-detect : Detect device
+- React Icons : Popular icons + ES6 imports
+- TanStack Query : Powerful asynchronous state management for TS/JS
+- React Hook Form : Performant, flexible and extensible forms with easy-to-use validatio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Custom configuration
+
+#### Tailwindcss
+
+- Add "XS" breakpoint (375px)
+- Disable hover when not supported by the device
+
+#### ESLint
+
+- Disable prop-types validation
