@@ -15,3 +15,4 @@ export const stack = [
     "Performant, flexible and extensible forms with easy-to-use validation",
   ],
 ];
+export const templateSettings = [];
