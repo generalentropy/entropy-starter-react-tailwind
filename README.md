@@ -15,20 +15,27 @@
 - React Router : A lightweight, fully-featured routing library for React
 - TanStack Query : Powerful asynchronous state management for TS/JS
 - React Hook Form : Performant, flexible and extensible forms with easy-to-use validation
-- react-loader-spinner : simple React SVG spinner component
+- react-loader-spinner : simple React SVG spinner component ⚙️
 - react-responsive : Media queries in react for responsive design
+- Sustand : A small, fast and scalable bearbones state-management solution.
+- uidotdev/usehooks : A collection of modern, server-safe React hooks
 
 ### Custom configuration
 
 #### Tailwindcss
 
-- Add "XS" breakpoint (375px)
-- Disable hover when not supported by the device
+- Automatic Class Sorting plugin
+- Add XS breakpoint (375px)
+- Disable hover effects when not supported by the device
 
 #### ESLint
 
-- Disable prop-types validation
+- Base configuration
+- Redirects rules (public/\_redirects) for Netlify deployment
+- Pre-built 404 page
 
 #### Misc
 
-- Custom files and folder structure
+- Custom folder structure
+- Pre-built layout components (Footer, Header, Sidebar...)
+- react-hot-toast ready to use
