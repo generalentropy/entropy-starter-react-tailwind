@@ -22,6 +22,10 @@ export const stack = [
     "A small, fast and scalable bearbones state-management solution.",
   ],
   ["uidotdev/usehooks", "A collection of modern, server-safe React hooks"],
+  [
+    "lodash-es",
+    "Modern JavaScript utility library delivering modularity, performance, & extras.",
+  ],
 ];
 
 export const templateSettings = [

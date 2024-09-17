@@ -25,7 +25,7 @@ function App() {
 
         {templateSettings.map((el, i) => (
           <div key={i}>
-            <p className="my-2 text-center text-lg font-bold text-emerald-400 underline underline-offset-4">
+            <p className="my-2 text-center text-lg font-bold text-emerald-300 underline underline-offset-4">
               {el.title}
             </p>
             <ul className="list-inside list-decimal text-center">
