@@ -30,6 +30,10 @@
 
 #### ESLint
 
+- Disable prop-types validation
+
+#### React Router
+
 - Base configuration
 - Redirects rules (public/\_redirects) for Netlify deployment
 - Pre-built 404 page
