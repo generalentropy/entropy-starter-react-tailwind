@@ -50,6 +50,7 @@ export const templateSettings = [
     items: [
       "Custom folder structure",
       "Pre-built layout components (Footer, Header, Sidebar...)",
+      "react-hot-toast ready to use",
     ],
   },
 ];
