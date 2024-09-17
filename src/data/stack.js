@@ -57,6 +57,7 @@ export const templateSettings = [
   {
     title: "Misc",
     items: [
+      "React Query v5 + React Query Devtools ready to use 🚀",
       "Custom folder structure",
       "Pre-built layout components (Footer, Header, Sidebar...)",
       "react-hot-toast ready to use",
