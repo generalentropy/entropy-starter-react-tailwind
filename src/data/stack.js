@@ -21,16 +21,34 @@ export const stack = [
     "Sustand",
     "A small, fast and scalable bearbones state-management solution.",
   ],
+  ["uidotdev/usehooks", "A collection of modern, server-safe React hooks"],
 ];
-export const templateSettings = {
-  Tailwindcss: [
-    "Add XS breakpoint (375px)",
-    "Disable hover effects when not supported by the device",
-  ],
-  ESLint: ["Disable prop-types validation"],
-  ReactRouter: [],
-  Misc: [
-    "Custom folder structure",
-    "Pre-created layout components (Footer, Header, Sidebar...)",
-  ],
-};
+
+export const templateSettings = [
+  {
+    title: "Tailwind CSS",
+    items: [
+      "Automatic Class Sorting plugin",
+      "Add XS breakpoint (375px)",
+      "Disable hover effects when not supported by the device",
+    ],
+  },
+  {
+    title: "ESLint",
+    items: ["Disable prop-types validation"],
+  },
+  {
+    title: "React Router",
+    items: [
+      "Base configuration",
+      "Redirects rules (public/_redirects) for Netlify deployment",
+    ],
+  },
+  {
+    title: "Misc",
+    items: [
+      "Custom folder structure",
+      "Pre-built layout components (Footer, Header, Sidebar...)",
+    ],
+  },
+];
