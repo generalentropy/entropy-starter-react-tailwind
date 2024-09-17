@@ -9,8 +9,8 @@ export default {
         xs: "375px",
         ...defaultTheme.screens,
       },
-      transitionDuration: {
-        8000: "8000ms",
+      animation: {
+        "spin-slow": "spin 15s linear infinite",
       },
     },
   },

@@ -55,7 +55,7 @@ export const templateSettings = [
     ],
   },
   {
-    title: "Misc",
+    title: "Misc.",
     items: [
       "React Query v5 + React Query Devtools ready to use 🚀",
       "Custom folder structure",
