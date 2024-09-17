@@ -1,10 +1,15 @@
 import { stack, templateSettings } from "./data/stack";
+import { FaReact } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 function App() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-800 py-12">
-      <div className="text-xl font-semibold text-white">
-        Entropy&lsquo;s React ⚛️ + Tailwind CSS Template 🚀
+      <div className="flex items-center text-xl font-semibold text-white">
+        Entropy&lsquo;s React
+        <FaReact className="ml-2 mt-1" size={24} />
+        <span className="mx-1 text-emerald-300">+</span> Tailwind CSS Template
+        <RiTailwindCssFill className="mx-2 mt-1" size={24} />
       </div>
       <div className="text-white">
         <p className="my-4 text-center text-xl font-bold text-pink-400 underline underline-offset-4">

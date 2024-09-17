@@ -9,6 +9,9 @@ export default {
         xs: "375px",
         ...defaultTheme.screens,
       },
+      transitionDuration: {
+        8000: "8000ms",
+      },
     },
   },
   plugins: [],
