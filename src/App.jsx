@@ -2,7 +2,7 @@ import { stack, templateSettings } from "./data/stack";
 
 function App() {
   return (
-    <div className="flex h-screen flex-col items-center justify-center bg-gray-800">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-800 py-12">
       <div className="text-xl font-semibold text-white">
         Entropy&lsquo;s React ⚛️ + Tailwind CSS Template 🚀
       </div>
