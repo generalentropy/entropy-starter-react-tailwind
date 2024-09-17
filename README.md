@@ -34,7 +34,7 @@
 
 #### React Router
 
-- Base configuration
+- Base configuration (createBrowserRouter)
 - Redirects rules (public/\_redirects) for Netlify deployment
 - Pre-built 404 page
 
