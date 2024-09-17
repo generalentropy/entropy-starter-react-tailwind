@@ -19,6 +19,7 @@
 - react-responsive : Media queries in react for responsive design
 - Sustand : A small, fast and scalable bearbones state-management solution.
 - uidotdev/usehooks : A collection of modern, server-safe React hooks
+- lodash-es : Modern JavaScript utility library delivering modularity, performance, & extras.
 
 ### Custom configuration
 
@@ -40,6 +41,7 @@
 
 #### Misc
 
+- React Query v5 + React Query Devtools ready to use 🚀
 - Custom folder structure
 - Pre-built layout components (Footer, Header, Sidebar...)
 - react-hot-toast ready to use
