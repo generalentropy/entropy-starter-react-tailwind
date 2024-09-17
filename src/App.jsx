@@ -1,4 +1,4 @@
-import { stack } from "../data/stack";
+import { stack } from "./data/stack";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <p className="my-4 text-center text-xl font-bold text-pink-400 underline underline-offset-4">
           Stack list
         </p>
-        <ul className="list-decimal">
+        <ul className="max-w-2xl list-decimal">
           {stack.map((el, i) => (
             <li key={i}>
               <span className="font-semibold">{el[0]}</span> :{" "}
@@ -18,6 +18,18 @@ function App() {
             </li>
           ))}
         </ul>
+
+        <p className="my-4 text-center text-xl font-bold text-pink-400 underline underline-offset-4">
+          Custom configuration
+        </p>
+
+        <p className="my-4 text-center text-lg font-bold text-emerald-400 underline underline-offset-4">
+          Tailwindcss
+        </p>
+
+        <p className="my-4 text-center text-lg font-bold text-emerald-400 underline underline-offset-4">
+          ESLint
+        </p>
       </div>
     </div>
   );

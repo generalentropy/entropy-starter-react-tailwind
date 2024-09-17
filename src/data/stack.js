@@ -17,5 +17,20 @@ export const stack = [
   ],
   ["react-loader-spinner", "simple React SVG spinner component ⚙️"],
   ["react-responsive", "Media queries in react for responsive design"],
+  [
+    "Sustand",
+    "A small, fast and scalable bearbones state-management solution.",
+  ],
 ];
-export const templateSettings = [];
+export const templateSettings = {
+  Tailwindcss: [
+    "Add XS breakpoint (375px)",
+    "Disable hover effects when not supported by the device",
+  ],
+  ESLint: ["Disable prop-types validation"],
+  ReactRouter: [],
+  Misc: [
+    "Custom folder structure",
+    "Pre-created layout components (Footer, Header, Sidebar...)",
+  ],
+};
