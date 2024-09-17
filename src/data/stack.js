@@ -42,6 +42,7 @@ export const templateSettings = [
     items: [
       "Base configuration",
       "Redirects rules (public/_redirects) for Netlify deployment",
+      "Pre-built 404 page",
     ],
   },
   {
