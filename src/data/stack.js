@@ -1,4 +1,5 @@
 export const stack = [
+  ["Vite", "Next Generation Frontend Toolings"],
   ["ESLint", "Find and fix problems in your JavaScript code"],
   ["ESLint plugins", "react, react-hooks, react-refresh"],
   ["PostCSS", " tool for transforming CSS with JavaScript"],

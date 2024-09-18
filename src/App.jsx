@@ -1,13 +1,16 @@
 import { stack, templateSettings } from "./data/stack";
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { TbBrandVite } from "react-icons/tb";
 
 function App() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-800 py-12">
       <div className="flex items-center text-xl font-semibold text-white">
-        Entropy&lsquo;s React
-        <FaReact className="animate-spin-slow ml-2 mt-1" size={24} />
+        Entropy&lsquo;s Vite{" "}
+        <TbBrandVite className="ml-2 mt-1 animate-pulse" size={24} />{" "}
+        <span className="mx-1 text-emerald-300">+</span> React
+        <FaReact className="ml-2 mt-1 animate-spin-slow" size={24} />
         <span className="mx-1 text-emerald-300">+</span> Tailwind CSS Template
         <RiTailwindCssFill className="mx-2 mt-1 animate-pulse" size={24} />
       </div>
