@@ -11,7 +11,10 @@ export const stack = [
   ["Prettier", "Opinionated code formatter"],
   ["Classnames", "Utility for conditionally joining classNames together"],
   ["Canvas Confetti", "Performant confetti animation in the browser 🎉"],
-  ["react-device-detect", "Detect device"],
+  [
+    "react-device-detect",
+    "Detect device and render view according to the detected device type.",
+  ],
   ["React Icons", "Popular icons + ES6 imports "],
   ["React Router", "A lightweight, fully-featured routing library for React"],
   ["React Hot Toast ", "Smoking Hot React Notifications 🔥"],
