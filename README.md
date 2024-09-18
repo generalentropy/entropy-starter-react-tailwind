@@ -1,4 +1,4 @@
-# Entropy‘s starter template : Vite⚡+ React ⚛️ + Tailwind 🍃
+## Entropy‘s starter template : Vite⚡+ React ⚛️ + Tailwind 🍃
 
 ### Stack list
 
