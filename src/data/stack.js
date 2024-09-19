@@ -9,7 +9,10 @@ export const stack = [
   ],
 
   ["Prettier", "Opinionated code formatter"],
-  ["Classnames", "Utility for conditionally joining classNames together"],
+  [
+    "clsx",
+    "A tiny (239B) utility for constructing className strings conditionally",
+  ],
   ["Canvas Confetti", "Performant confetti animation in the browser 🎉"],
   [
     "react-device-detect",
