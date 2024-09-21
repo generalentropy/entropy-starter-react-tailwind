@@ -7,6 +7,7 @@
 - PostCSS : tool for transforming CSS with JavaScript
 - React Hot Toast : Smoking Hot React Notifications 🔥
 - Framer motion : A production-ready motion library for React
+- tailwindcss : utility-first CSS framework for rapid UI development.
 - Prettier : Opinionated code formatter
 - Classnames : Utility for conditionally joining classNames together
 - Canvas Confetti : Performant confetti animation in the browser 🎉

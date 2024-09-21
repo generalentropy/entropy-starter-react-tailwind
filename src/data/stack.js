@@ -7,6 +7,7 @@ export const stack = [
     "Autoprefixer",
     "a PostCSS plugin which parses your CSS and adds vendor prefixes ",
   ],
+  ["tailwindcss", "A utility-first CSS framework for rapid UI development. "],
 
   ["Prettier", "Opinionated code formatter"],
   [
