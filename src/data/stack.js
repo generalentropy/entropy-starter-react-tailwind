@@ -38,6 +38,10 @@ export const stack = [
     "lodash-es",
     "Modern JavaScript utility library delivering modularity, performance, & extras.",
   ],
+  [
+    "i18next",
+    "internationalization framework for browser or any other javascript environment.",
+  ],
 ];
 
 export const templateSettings = [
