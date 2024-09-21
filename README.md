@@ -20,6 +20,7 @@
 - Sustand : A small, fast and scalable bearbones state-management solution.
 - uidotdev/usehooks : A collection of modern, server-safe React hooks
 - lodash-es : Modern JavaScript utility library delivering modularity, performance, & extras.
+- i18next : internationalization framework for browser or any other javascript environment.
 
 ### Custom configuration
 
