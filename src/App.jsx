@@ -1,14 +1,20 @@
+import "./i18n/i18n.js";
+import { useTranslation } from "react-i18next";
 import { stack, templateSettings } from "./data/stack";
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandVite } from "react-icons/tb";
 
 function App() {
+  const { t } = useTranslation();
+
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-800 py-12">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-800 py-10">
+      <p className="mb-6 flex text-center text-4xl font-black text-emerald-300">
+        {t("welcome")}
+      </p>
       <div className="flex items-center text-xl font-semibold text-white">
-        Entropy&lsquo;s starter template : Vite{" "}
-        <TbBrandVite className="ml-2 mt-1 animate-pulse" size={24} />{" "}
+        Vite <TbBrandVite className="ml-2 mt-1 animate-pulse" size={24} />{" "}
         <span className="mx-1 text-emerald-300">+</span> React
         <FaReact className="ml-2 mt-1 animate-spin-slow" size={24} />
         <span className="mx-1 text-emerald-300">+</span> Tailwind CSS
@@ -16,7 +22,7 @@ function App() {
       </div>
       <div className="text-white">
         <p className="my-4 text-center text-xl font-bold text-pink-400 underline underline-offset-4">
-          Stack list
+          {t("description")}
         </p>
         <ul className="max-w-2xl list-decimal">
           {stack.map((el, i) => (

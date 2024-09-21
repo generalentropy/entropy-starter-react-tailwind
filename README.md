@@ -40,6 +40,12 @@
 - Redirects rules (public/\_redirects) for Netlify deployment
 - Pre-built 404 page
 
+#### i18next
+
+- Ready to use 🚀
+- Starter folder structure
+- i18next-browser-languageDetector plugin
+
 #### Misc
 
 - React Query v5 + React Query Devtools ready to use 🚀

@@ -1,5 +1,5 @@
 export const stack = [
-  ["Vite", "Next Generation Frontend Toolings"],
+  ["Vite", "Next-generation Frontend Toolings"],
   ["ESLint", "Find and fix problems in your JavaScript code"],
   ["ESLint plugins", "react, react-hooks, react-refresh"],
   ["PostCSS", " tool for transforming CSS with JavaScript"],
@@ -63,6 +63,15 @@ export const templateSettings = [
       "Base configuration (createBrowserRouter)",
       "Redirects rules (public/_redirects) for Netlify deployment",
       "Pre-built 404 page",
+    ],
+  },
+  {
+    title: "i18next",
+    items: [
+      "Ready to use 🚀",
+
+      "Starter folder structure",
+      "i18next-browser-languageDetector plugin",
     ],
   },
   {
