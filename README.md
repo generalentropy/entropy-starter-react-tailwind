@@ -18,7 +18,7 @@
 - React Hook Form : Performant, flexible and extensible forms with easy-to-use validation
 - react-loader-spinner : simple React SVG spinner component ⚙️
 - react-responsive : Media queries in react for responsive design
-- Sustand : A small, fast and scalable bearbones state-management solution.
+- Zustand : A small, fast and scalable bearbones state-management solution.
 - uidotdev/usehooks : A collection of modern, server-safe React hooks
 - lodash-es : Modern JavaScript utility library delivering modularity, performance, & extras.
 - i18next : internationalization framework for browser or any other javascript environment.

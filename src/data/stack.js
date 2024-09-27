@@ -31,7 +31,7 @@ export const stack = [
   ["react-loader-spinner", "simple React SVG spinner component ⚙️"],
   ["react-responsive", "Media queries in react for responsive design"],
   [
-    "Sustand",
+    "Zustand",
     "A small, fast and scalable bearbones state-management solution.",
   ],
   ["uidotdev/usehooks", "A collection of modern, server-safe React hooks"],
