@@ -4,9 +4,18 @@ import { stack, templateSettings } from "./data/stack";
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandVite } from "react-icons/tb";
+import { useQuery } from "@tanstack/react-query";
+import { fetchDog } from "./lib/dog-api/dogApiService.js";
 
 function App() {
   const { t } = useTranslation();
+  const { data } = useQuery({
+    queryKey: ["demo"],
+    queryFn: fetchDog,
+    staleTime: 1000 * 10,
+  });
+
+  const dog = data?.message;
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-800 py-10">
@@ -49,9 +58,22 @@ function App() {
             </ul>
           </div>
         ))}
+
+        <hr className="my-8" />
       </div>
+
+      {dog && (
+        <div className="flex flex-col items-center">
+          <p className="mb-2 text-lg font-semibold text-emerald-300">
+            Fetch successful ! 🐶
+          </p>
+          <img
+            className="h-24 w-24 rounded-full border-4 border-emerald-300 bg-gray-800 object-cover"
+            src={data?.message}
+          />
+        </div>
+      )}
     </div>
   );
 }
-
 export default App;
