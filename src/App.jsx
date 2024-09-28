@@ -11,7 +11,7 @@ import { useBearStore } from "./store/useBearStore.js";
 function App() {
   const { bears, increasePopulation, decreasePopulation } = useBearStore();
   const { t } = useTranslation();
-  const { data } = useQuery({
+  const { data, refetch, isFetching } = useQuery({
     queryKey: ["demo"],
     queryFn: fetchDog,
     staleTime: 1000 * 10,
@@ -73,10 +73,21 @@ function App() {
             <p className="mb-2 text-lg font-semibold text-emerald-300">
               Fetch successful ! 🐶
             </p>
+
             <img
               className="h-24 w-24 rounded-full border-4 border-emerald-300 bg-gray-800 object-cover"
               src={data?.message}
             />
+
+            <p className="text-md mt-5 font-semibold text-white">
+              <button
+                disabled={isFetching}
+                onClick={refetch}
+                className={`${btnStyle} my-5 cursor-pointer text-sm`}
+              >
+                {isFetching ? "Fetching..." : "Refetch ?"}
+              </button>
+            </p>
           </div>
         )}
         <hr className="my-8" />
@@ -84,11 +95,11 @@ function App() {
           <p className="pb-4 text-lg font-bold text-pink-400">Zustand demo</p>
           <div className="text-3xl font-bold">Bears counter : {bears}</div>
           <div className="flex gap-5 py-5 text-2xl font-bold">
-            <button className={btnStyle} onClick={increasePopulation}>
-              +
-            </button>
             <button className={btnStyle} onClick={decreasePopulation}>
               -
+            </button>
+            <button className={btnStyle} onClick={increasePopulation}>
+              +
             </button>
           </div>
         </div>
