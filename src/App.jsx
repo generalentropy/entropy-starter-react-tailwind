@@ -6,8 +6,10 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandVite } from "react-icons/tb";
 import { useQuery } from "@tanstack/react-query";
 import { fetchDog } from "./lib/dog-api/dogApiService.js";
+import { useBearStore } from "./store/useBearStore.js";
 
 function App() {
+  const { bears, increasePopulation, decreasePopulation } = useBearStore();
   const { t } = useTranslation();
   const { data } = useQuery({
     queryKey: ["demo"],
@@ -16,6 +18,8 @@ function App() {
   });
 
   const dog = data?.message;
+  const btnStyle =
+    "min-w-[80px] text-white bg-pink-400 hover:bg-pink-500 font-bold rounded-full text-xl px-5 py-2.5 text-center";
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-800 py-10">
@@ -60,19 +64,35 @@ function App() {
         ))}
 
         <hr className="my-8" />
-      </div>
 
-      {dog && (
-        <div className="flex flex-col items-center">
-          <p className="mb-2 text-lg font-semibold text-emerald-300">
-            Fetch successful ! 🐶
-          </p>
-          <img
-            className="h-24 w-24 rounded-full border-4 border-emerald-300 bg-gray-800 object-cover"
-            src={data?.message}
-          />
+        {dog && (
+          <div className="flex flex-col items-center">
+            <p className="pb-4 text-lg font-bold text-pink-400">
+              React query demo
+            </p>
+            <p className="mb-2 text-lg font-semibold text-emerald-300">
+              Fetch successful ! 🐶
+            </p>
+            <img
+              className="h-24 w-24 rounded-full border-4 border-emerald-300 bg-gray-800 object-cover"
+              src={data?.message}
+            />
+          </div>
+        )}
+        <hr className="my-8" />
+        <div className="flex flex-col items-center justify-center text-white">
+          <p className="pb-4 text-lg font-bold text-pink-400">Zustand demo</p>
+          <div className="text-3xl font-bold">Bears counter : {bears}</div>
+          <div className="flex gap-5 py-5 text-2xl font-bold">
+            <button className={btnStyle} onClick={increasePopulation}>
+              +
+            </button>
+            <button className={btnStyle} onClick={decreasePopulation}>
+              -
+            </button>
+          </div>
         </div>
-      )}
+      </div>
     </div>
   );
 }
