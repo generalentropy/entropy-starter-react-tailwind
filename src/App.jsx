@@ -70,9 +70,6 @@ function App() {
             <p className="pb-4 text-lg font-bold text-pink-400">
               React query demo
             </p>
-            <p className="mb-2 text-lg font-semibold text-emerald-300">
-              Fetch successful ! 🐶
-            </p>
 
             <img
               className="h-24 w-24 rounded-full border-4 border-emerald-300 bg-gray-800 object-cover"
@@ -85,7 +82,7 @@ function App() {
                 onClick={refetch}
                 className={`${btnStyle} my-5 cursor-pointer text-sm`}
               >
-                {isFetching ? "Fetching..." : "Refetch ?"}
+                {isFetching ? "Fetching..." : "🐶 Refetch ?"}
               </button>
             </p>
           </div>
