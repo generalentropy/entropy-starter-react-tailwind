@@ -15,6 +15,7 @@
 - React Icons : Popular icons + ES6 imports
 - React Router : A lightweight, fully-featured routing library for React
 - TanStack Query : Powerful asynchronous state management for TS/JS
+- Axios : a promise-based HTTP Client for node.js and the browser.
 - React Hook Form : Performant, flexible and extensible forms with easy-to-use validation
 - react-loader-spinner : simple React SVG spinner component ⚙️
 - react-responsive : Media queries in react for responsive design

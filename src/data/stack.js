@@ -24,6 +24,7 @@ export const stack = [
   ["React Hot Toast ", "Smoking Hot React Notifications 🔥"],
   ["Framer motion", "A production-ready motion library for React"],
   ["TanStack Query", "Powerful asynchronous state management for TS/JS"],
+  ["Axios", "a promise-based HTTP Client for node.js and the browser. "],
   [
     "React Hook Form",
     "Performant, flexible and extensible forms with easy-to-use validation",
